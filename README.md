@@ -6,6 +6,8 @@ Uploads Starcraft 2 replays to sc2replaystats.com
 
 sc2replaystats.com offers a tool that tracks your replay folder and automatically uploads any SC2 replay files to the service. However, the tool is offered as a closed source executable that cannot be easily audited. This project offers an alternative tool in a few hundred lines of auditable Python.
 
+This tool performs essentially the same steps, except it only keeps track of replays that are created when this program is running. Any replays that were created when the derpling wasn't running will be ignored.
+
 ### Installation
 
 * Install Python 3: [https://www.python.org](https://www.python.org). Make sure pip is installed as well.
