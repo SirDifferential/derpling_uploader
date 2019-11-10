@@ -18,7 +18,7 @@ This tool performs essentially the same steps, except it only keeps track of rep
 
 ### One time usage, launches the uploader in the background
 
-`python derpling_uploader.pyw`
+* Double click `derpling_uploader.pyw`
 
 ### Launch with a console window
 
